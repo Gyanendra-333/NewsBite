@@ -74,7 +74,7 @@ server/
 ### 1. Clone Repository
 
 ```
-git clone https://github.com/your-username/mern-app.git
+git clone https://github.com/Gyanendra-333/NewsBite
 cd mern-app
 ```
 
