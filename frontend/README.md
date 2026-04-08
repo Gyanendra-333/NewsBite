@@ -8,7 +8,7 @@ passord-123456
 email- admin@gmail.com
 password - 123456
 
-# MERN Stack Social Feed App
+# MERN Stack News Feed App
 
 A full-stack MERN (MongoDB, Express, React, Node.js) application with authentication, user feed, and admin panel.
 
@@ -121,7 +121,7 @@ npm run dev
 
 ```
 cd client
-npm start
+npm run dev
 ```
 
 ---
@@ -130,27 +130,6 @@ npm start
 
 - Normal User → Feed Access
 - Admin ([admin@gmail.com](mailto:admin@gmail.com)) → Admin Panel
-
----
-
-## App Logic
-
-```js
-if (!user) {
-  return (
-    <>
-      <Login />
-      <Signup />
-    </>
-  );
-}
-
-if (user.email === "admin@gmail.com") {
-  return <Admin />;
-}
-
-return <Feed />;
-```
 
 ---
 
